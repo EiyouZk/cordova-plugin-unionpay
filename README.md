@@ -1,8 +1,11 @@
 # cordoav-plugin-unionpay
 
-cordova plugin add https://github.com/EiyouZk/cordova-plugin-unionpay.git
+在cordova工程目录下执行一下命令从git服务器上拉取插件目录：cordova plugin add https://github.com/EiyouZk/cordova-plugin-unionpay.git
+
+
 
 ##错误处理：
+
 Android studio报如下错误：
 Error:org.gradle.api.internal.tasks.DefaultTaskInputs$TaskInputUnionFileCollection cannot be cast to org.gradle.api.internal.file.collections.DefaultConfigurableFileCollection
 Possible causes for this unexpected error include:<ul><li>Gradle's dependency cache may be corrupt (this sometimes occurs after a network connection timeout.)
