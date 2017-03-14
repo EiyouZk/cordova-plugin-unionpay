@@ -90,14 +90,14 @@
     
 
     <header-file src="src/ios/ViewController.h"/>
-    <header-file src="src/ios/Util/UnionPlugin.h"/>
-    <header-file src="src/ios/Util/UPPaymentControl.h"/>
-    <header-file src="src/ios/Util/UPPayPlugin.h"/>
-    <header-file src="src/ios/Util/UPPayPluginDelegate.h"/>
+    <header-file src="src/ios/UnionPlugin.h"/>
+    <header-file src="src/ios/UPPaymentControl.h"/>
+    <header-file src="src/ios/UPPayPlugin.h"/>
+    <header-file src="src/ios/UPPayPluginDelegate.h"/>
 
 	<source-file src="src/ios/RSA.m"/>
-    <source-file src="src/ios/Util/UnionPlugin.m"/>
-    <source-file src="src/ios/Util/ViewController.mm"/>
+    <source-file src="src/ios/UnionPlugin.m"/>
+    <source-file src="src/ios/ViewController.mm"/>
 
   </platform>
 </plugin>
