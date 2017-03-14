@@ -5,9 +5,9 @@ import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.text.TextUtils;
-import com.alipay.sdk.app.PayTask;
+//import com.alipay.sdk.app.PayTask;
 import com.unionpay.UPPayAssistEx;
-import com.unionpay.uppay.PayActivity;
+//import com.unionpay.uppay.PayActivity;
 
 import org.apache.cordova.CallbackContext;
 import org.apache.cordova.CordovaInterface;
