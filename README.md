@@ -1,6 +1,7 @@
 # cordoav-plugin-unionpay
 
-在cordova工程目录下执行一下命令从git服务器上拉取插件目录：cordova plugin add https://github.com/EiyouZk/cordova-plugin-unionpay.git
+在cordova工程目录下执行一下命令从git服务器上拉取插件目录：
+cordova plugin add https://github.com/EiyouZk/cordova-plugin-unionpay.git
 
 
 
@@ -13,6 +14,5 @@ Possible causes for this unexpected error include:<ul><li>Gradle's dependency ca
 <a href="stopGradleDaemons">Stop Gradle build processes (requires restart)</a></li><li>Your project may be using a third-party plugin which is not compatible with the other plugins in the project or the version of Gradle requested by the project.</li></ul>In the case of corrupt Gradle processes, you can also try closing the IDE and then killing all Java processes.
 
 处理方案：打开项目目录／gradle／gradle－wrapper.properties 文件 
-         把distributionUrl=https\://services.gradle.org/distributions/gradle-3.3-all.zip 中的gradle-3.3-all.zip替换成其它可运行项目的压缩包（gradle-2.14.1-all.zip）
-
+         把distributionUrl=https\://services.gradle.org/distributions/gradle-3.3-all.zip 中的gradle-3.3-all.zip替换成其它可运行项目的压缩包（gradle-2.14.1-all.zip）关闭重新打开工程即可。
 原因：android studio中gradle的版本导致
