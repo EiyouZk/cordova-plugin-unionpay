@@ -51,6 +51,9 @@
       <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     </config-file>
 	
+	<source-file src="src/android/libs/UPPayAssistEx.jar" target-dir="libs"/>
+	<source-file src="src/android/libs/UPPayPluginExPro.jar" target-dir="libs"/>
+	
     <source-file src="src/android/APKActivity.java" target-dir="src/org/unionpay/uppayplugin/demo"/>
 	<source-file src="src/android/BaseActivity.java" target-dir="src/org/unionpay/uppayplugin/demo"/>
 	<source-file src="src/android/EntryActivity.java" target-dir="src/org/unionpay/uppayplugin/demo"/>
