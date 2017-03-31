@@ -116,10 +116,10 @@ public class UnionPayPlugin extends CordovaPlugin {
             //String subject = arguments.getString("subject");
             //String body = arguments.getString("body");
             //String price = arguments.getString("price");
-            //String payinfo = arguments.getString("payinfo");
+            String payinfo = arguments.getString("payinfo");
             //String notifyUrl = "http://sys.oonline.sciencereading.cn/api/alipay/notify_url.php";
-            String tn = arguments.getString("tn");
-            String payinfo = tn;
+            //String tn = arguments.getString("tn");
+            //String payinfo = tn;
             //callbackContext.error(0);
             this.pay("tradeNo", "subject", "body", payinfo, "notifyUrl", callbackContext);
         } catch (JSONException e) {
